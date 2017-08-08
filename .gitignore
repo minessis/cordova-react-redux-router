@@ -4,8 +4,7 @@
 /platforms
 /plugins
 /res
-/src/bundle.js
-/src/bundle.js.map
+/www/bundle.js
 .DS_Store
 *.log
 *.txt
