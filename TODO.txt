@@ -1,0 +1,5 @@
+> setup hot reloader
+> setup jest
+> setup linter
+> successfully run on android
+> successfully run on iphone
