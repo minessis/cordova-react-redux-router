@@ -1,7 +1,7 @@
 'use strict';
 
-import App from './App.jsx';
-import Home from './Home.jsx';
+import App from './App';
+import Home from './Home';
 
 export {
   App,

@@ -5,6 +5,7 @@
     "description": "A cordova app utilizing react-redux and react-router.",
     "main": "index.js",
     "scripts": {
+        "start": "node config && webpack && cordova build && cordova run browser",
         "build": "node config && webpack && cordova build",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -13,11 +14,11 @@
     "dependencies": {
         "cordova-browser": "^4.1.0",
         "cordova-plugin-whitelist": "^1.3.2",
+        "history": "^4.6.3",
         "prop-types": "^15.5.10",
         "react": "^15.6.1",
         "react-dom": "^15.6.1",
         "react-redux": "^5.0.5",
-        "react-router": "^4.1.2",
         "react-router-dom": "^4.1.2",
         "react-router-redux": "^4.0.8",
         "redux": "^3.7.2",
@@ -33,7 +34,9 @@
         "babel-preset-stage-0": "^6.24.1",
         "elementtree": "^0.1.7",
         "replace": "^0.3.0",
-        "webpack": "^3.0.0"
+        "webpack": "^3.0.0",
+        "webpack-dev-server": "^2.6.1",
+        "webpack-merge": "^4.1.0"
     },
     "cordova": {
         "plugins": {
