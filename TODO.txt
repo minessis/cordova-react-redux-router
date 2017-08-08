@@ -1,0 +1,6 @@
+> setup testing and test runners
+> setup minifier
+> setup linter
+> successfully run on browser
+> successfully run on android
+> successfully run on iphone
