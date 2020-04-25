@@ -8,5 +8,6 @@
 /res
 /www
 .DS_Store
+package-lock.json
 *.log
 *.zip

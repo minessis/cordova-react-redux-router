@@ -12,7 +12,7 @@
     "author": "minessis",
     "license": "LICENSE",
     "dependencies": {
-        "cordova-browser": "^4.1.0",
+        "cordova-browser": "^6.0.0",
         "cordova-plugin-whitelist": "^1.3.2",
         "history": "^4.6.3",
         "prop-types": "^15.5.10",
