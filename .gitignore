@@ -2,9 +2,11 @@
 /bower_components
 /node_modules
 /platforms
+/platform
 /plugins
+/run
 /res
-/www/bundle.js
+/www
 .DS_Store
 *.log
 *.zip
